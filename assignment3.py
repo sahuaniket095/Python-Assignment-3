@@ -201,8 +201,8 @@ if __name__ == "__main__":
                     print("Task not found.")  # If not found in either list
 
         elif choice == 7:
-            # Set priority for an existing priority task
-            title = input("Enter the title of the task to set priority: ")
+            # Change priority for an existing priority task
+            title = input("Enter the title of the task to change priority: ")
             if not title:
                 print("Title cannot be empty!")
                 continue
